@@ -15,7 +15,7 @@ export default function Page() {
             Create an account with google
           </p>
         </div>
-        <Button onClick={() => login} className="w-fit mx-auto bg-transparent border border-white transition-all duration-200 ease-in-out">
+        <Button onClick={() => login()} className="w-fit mx-auto bg-transparent border border-white transition-all duration-200 ease-in-out">
           <Image
             src="/images/google.svg"
             alt="google logo"
